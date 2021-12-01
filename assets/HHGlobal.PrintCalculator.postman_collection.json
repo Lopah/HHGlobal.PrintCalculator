@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "894c9cca-f0af-4ae0-a2da-eaa8bebd0ce6",
+		"name": "HHGlobal.PrintCalculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Job 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"extraMargin\": \"extra-margin\",\r\n  \"jobItems\": [\r\n    {\r\n        \"name\": \"envelopes\",\r\n        \"price\": 520.00\r\n    },\r\n    {\r\n        \"name\": \"letterhead\",\r\n        \"price\": 1983.37,\r\n        \"salesTax\": \"exempt\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5265/api/JobCalculation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5265",
+					"path": [
+						"api",
+						"JobCalculation"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Job 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"jobItems\": [\r\n    {\r\n        \"name\": \"tshirts\",\r\n        \"price\": 294.04\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5265/api/JobCalculation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5265",
+					"path": [
+						"api",
+						"JobCalculation"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Job 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"extraMargin\": \"extra-margin\",\r\n  \"jobItems\": [\r\n    {\r\n        \"name\": \"frisbees\",\r\n        \"price\": 19385.38,\r\n        \"salesTax\": \"exempt\"\r\n    },\r\n    {\r\n        \"name\": \"yo-yos\",\r\n        \"price\": 1829.00,\r\n        \"salesTax\": \"exempt\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5265/api/JobCalculation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5265",
+					"path": [
+						"api",
+						"JobCalculation"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
