@@ -6,5 +6,5 @@ How to run this solution:
     * `helm install hhglobal-print-calculator ./chart/`
     * `kubectl get all --selector app=PrintCalculator` to verify that the pod is running
     * `kubectl port-forward service/hhglobal-print-calculator-service 5265:8888` to redirect HTTP traffic to our pod
-    * Run postman tests
+    * Run postman tests (can be found in `assets` folder)
     * `helm uninstall hhglobal-print-calculator` once you are done
