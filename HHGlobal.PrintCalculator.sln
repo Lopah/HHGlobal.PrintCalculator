@@ -8,9 +8,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintCalculator.Infrastruct
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C6590960-499B-44D8-B997-376312992EC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintCalculator.API.Integration", "..\tests\PrintCalculator.API\PrintCalculator.API.Integration\PrintCalculator.API.Integration.csproj", "{5FB48C3C-5462-442D-9342-CCD101CAC88E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintCalculator.Core.Unit", "tests\PrintCalculator.Core\PrintCalculator.Core.Unit\PrintCalculator.Core.Unit.csproj", "{5562F7F5-F583-4DA4-9F1D-8512959CBA68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintCalculator.Core.Unit", "..\tests\PrintCalculator.Core\PrintCalculator.Core.Unit\PrintCalculator.Core.Unit.csproj", "{D7AA2D22-4767-4345-BAFC-BB792BB3B9A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintCalculator.API.Integration", "tests\PrintCalculator.API\PrintCalculator.API.Integration\PrintCalculator.API.Integration.csproj", "{067971C4-1BEF-4E12-BA25-74B91CE403A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,17 +30,17 @@ Global
 		{C578FBD1-426C-4646-ABEE-287D165A0147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C578FBD1-426C-4646-ABEE-287D165A0147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C578FBD1-426C-4646-ABEE-287D165A0147}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5FB48C3C-5462-442D-9342-CCD101CAC88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5FB48C3C-5462-442D-9342-CCD101CAC88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5FB48C3C-5462-442D-9342-CCD101CAC88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5FB48C3C-5462-442D-9342-CCD101CAC88E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7AA2D22-4767-4345-BAFC-BB792BB3B9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7AA2D22-4767-4345-BAFC-BB792BB3B9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7AA2D22-4767-4345-BAFC-BB792BB3B9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7AA2D22-4767-4345-BAFC-BB792BB3B9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5562F7F5-F583-4DA4-9F1D-8512959CBA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5562F7F5-F583-4DA4-9F1D-8512959CBA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5562F7F5-F583-4DA4-9F1D-8512959CBA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5562F7F5-F583-4DA4-9F1D-8512959CBA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067971C4-1BEF-4E12-BA25-74B91CE403A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067971C4-1BEF-4E12-BA25-74B91CE403A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067971C4-1BEF-4E12-BA25-74B91CE403A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067971C4-1BEF-4E12-BA25-74B91CE403A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5FB48C3C-5462-442D-9342-CCD101CAC88E} = {C6590960-499B-44D8-B997-376312992EC9}
-		{D7AA2D22-4767-4345-BAFC-BB792BB3B9A6} = {C6590960-499B-44D8-B997-376312992EC9}
+		{5562F7F5-F583-4DA4-9F1D-8512959CBA68} = {C6590960-499B-44D8-B997-376312992EC9}
+		{067971C4-1BEF-4E12-BA25-74B91CE403A3} = {C6590960-499B-44D8-B997-376312992EC9}
 	EndGlobalSection
 EndGlobal
